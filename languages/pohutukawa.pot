@@ -1,0 +1,775 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pohutukawa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-11 09:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0"
+
+#: functions.php:36
+msgid "small"
+msgstr ""
+
+#: functions.php:37
+msgid "S"
+msgstr ""
+
+#: functions.php:42
+msgid "regular"
+msgstr ""
+
+#: functions.php:43
+msgid "M"
+msgstr ""
+
+#: functions.php:48
+msgid "large"
+msgstr ""
+
+#: functions.php:49
+msgid "L"
+msgstr ""
+
+#: functions.php:54
+msgid "larger"
+msgstr ""
+
+#: functions.php:55
+msgid "XL"
+msgstr ""
+
+#: functions.php:64
+msgid "black"
+msgstr ""
+
+#: functions.php:69
+msgid "white"
+msgstr ""
+
+#: functions.php:74
+msgid "light grey"
+msgstr ""
+
+#: functions.php:79
+msgid "orange"
+msgstr ""
+
+#: functions.php:84
+msgid "blue"
+msgstr ""
+
+#: functions.php:101
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:102
+msgid "Optional Navigation (no sub menus supported)"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by the used fonts translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:152
+msgctxt "PT Sans: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:200
+msgid "Continue reading"
+msgstr ""
+
+#: functions.php:244
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions.php:245
+msgid " // "
+msgstr ""
+
+#. 1: date, 2: time
+#: functions.php:248
+#, php-format
+msgid "%1$s &#64; %2$s"
+msgstr ""
+
+#: functions.php:252
+msgid "Edit"
+msgstr ""
+
+#: functions.php:253
+msgid "Reply"
+msgstr ""
+
+#: functions.php:258
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:269
+msgid "<span>Pingback:</span>"
+msgstr ""
+
+#: functions.php:270
+msgid "Edit pingback"
+msgstr ""
+
+#: functions.php:282
+msgid "Main Widget Area"
+msgstr ""
+
+#: functions.php:284
+msgid "Main widget area (below the post and pages content)."
+msgstr ""
+
+#: functions.php:292
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:294
+msgid "Footer Widget Area 1 (left column in desktop view)"
+msgstr ""
+
+#: functions.php:302
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:304
+msgid "Footer Widget Area 2 (middle column in desktop view)"
+msgstr ""
+
+#: functions.php:312
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: functions.php:314
+msgid "Footer Widget Area 3 (right column in desktop view)"
+msgstr ""
+
+#: functions.php:322
+msgid "Social Links Footer Widget"
+msgstr ""
+
+#: functions.php:324
+msgid ""
+"Optional widget area to include the Social Links Widget in the bottom footer "
+"area."
+msgstr ""
+
+#: functions.php:340
+msgid "Search..."
+msgstr ""
+
+#: functions.php:341
+msgid "Submit"
+msgstr ""
+
+#: functions.php:574
+msgid "Flickr Widget"
+msgstr ""
+
+#: functions.php:576
+msgid "Show some Flickr preview images."
+msgstr ""
+
+#: functions.php:618 functions.php:706 functions.php:1008
+msgid "Title:"
+msgstr ""
+
+#: functions.php:623
+msgid "Flickr ID:"
+msgstr ""
+
+#: functions.php:628
+msgid "Flickr Profile Link Text:"
+msgstr ""
+
+#: functions.php:633
+msgid "Flickr Profile URL:"
+msgstr ""
+
+#: functions.php:638
+msgid "Number of photos:"
+msgstr ""
+
+#: functions.php:647
+msgid "Choose user or group:"
+msgstr ""
+
+#: functions.php:649
+msgid "User"
+msgstr ""
+
+#: functions.php:650
+msgid "Group"
+msgstr ""
+
+#: functions.php:654
+msgid "Show latest or random pictures:"
+msgstr ""
+
+#: functions.php:656
+msgid "Latest"
+msgstr ""
+
+#: functions.php:657
+msgid "Random"
+msgstr ""
+
+#: functions.php:673
+msgid "Video Widget"
+msgstr ""
+
+#: functions.php:675
+msgid "Show a custom featured video."
+msgstr ""
+
+#: functions.php:711
+msgid "Video embed code:"
+msgstr ""
+
+#: functions.php:728
+msgid "Social Links Widget"
+msgstr ""
+
+#: functions.php:730
+msgid "Link to your social profiles."
+msgstr ""
+
+#: functions.php:1013
+msgid "Twitter URL:"
+msgstr ""
+
+#: functions.php:1018
+msgid "Facebook URL:"
+msgstr ""
+
+#: functions.php:1023
+msgid "Google+ URL:"
+msgstr ""
+
+#: functions.php:1028
+msgid "Flickr URL:"
+msgstr ""
+
+#: functions.php:1033
+msgid "Picasa URL:"
+msgstr ""
+
+#: functions.php:1038
+msgid "500px URL:"
+msgstr ""
+
+#: functions.php:1043
+msgid "YouTube URL:"
+msgstr ""
+
+#: functions.php:1048
+msgid "Vimeo URL:"
+msgstr ""
+
+#: functions.php:1053
+msgid "Dribbble URL:"
+msgstr ""
+
+#: functions.php:1058
+msgid "Ffffound URL:"
+msgstr ""
+
+#: functions.php:1063
+msgid "Pinterest URL:"
+msgstr ""
+
+#: functions.php:1068
+msgid "Zootool URL:"
+msgstr ""
+
+#: functions.php:1073
+msgid "Behance Network URL:"
+msgstr ""
+
+#: functions.php:1078
+msgid "deviantART URL:"
+msgstr ""
+
+#: functions.php:1083
+msgid "Squidoo URL:"
+msgstr ""
+
+#: functions.php:1088
+msgid "Slideshare URL:"
+msgstr ""
+
+#: functions.php:1093
+msgid "Last.fm URL:"
+msgstr ""
+
+#: functions.php:1098
+msgid "Grooveshark URL:"
+msgstr ""
+
+#: functions.php:1103
+msgid "Soundcloud URL:"
+msgstr ""
+
+#: functions.php:1108
+msgid "Foursquare URL:"
+msgstr ""
+
+#: functions.php:1113
+msgid "Gowalla URL:"
+msgstr ""
+
+#: functions.php:1118
+msgid "Linkedin URL:"
+msgstr ""
+
+#: functions.php:1123
+msgid "Xing URL:"
+msgstr ""
+
+#: functions.php:1128
+msgid "WordPress URL:"
+msgstr ""
+
+#: functions.php:1133
+msgid "Tumblr URL:"
+msgstr ""
+
+#: functions.php:1138
+msgid "RSS-Feed URL:"
+msgstr ""
+
+#: functions.php:1143
+msgid "RSS for Comments URL:"
+msgstr ""
+
+#: functions.php:1148
+msgid "Open all links in a new browser tab"
+msgstr ""
+
+#: content-gallery.php:14 content.php:14 content-aside.php:14
+#: content-video.php:14
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-gallery.php:20 content-aside.php:20
+msgid "Posted by"
+msgstr ""
+
+#: content-gallery.php:22 content-single.php:22 content.php:22
+#: content-aside.php:22
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+msgstr ""
+
+#: content-gallery.php:24 content-single.php:24 content.php:24
+#: content-aside.php:24
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: content-gallery.php:28 content-single.php:28 content-status.php:16
+#: content.php:28 content-aside.php:28 content-video.php:20
+#: content-quote.php:16 content-link.php:16 content-image.php:16 image.php:22
+msgid "0 comments"
+msgstr ""
+
+#: content-gallery.php:28 content-single.php:28 content-status.php:16
+#: content.php:28 content-aside.php:28 content-video.php:20
+#: content-quote.php:16 content-link.php:16 content-image.php:16 image.php:22
+msgid "1 comment"
+msgstr ""
+
+#: content-gallery.php:28 content-single.php:28 content-status.php:16
+#: content.php:28 content-aside.php:28 content-video.php:20
+#: content-quote.php:16 content-link.php:16 content-image.php:16 image.php:22
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: content-gallery.php:28 content-single.php:28 content-status.php:16
+#: content.php:28 content-aside.php:28 content-video.php:20
+#: content-quote.php:16 content-link.php:16 content-image.php:16 image.php:22
+msgid "comments off"
+msgstr ""
+
+#: content-gallery.php:36 content-single.php:29 content-status.php:24
+#: content-page.php:30 content.php:36 content-aside.php:36 content-video.php:28
+#: content-quote.php:24 content-link.php:24 content-image.php:24 image.php:23
+msgid "Edit this post"
+msgstr ""
+
+#: content-gallery.php:41 content-status.php:29 content.php:51
+#: content-aside.php:41 content-video.php:33 content-quote.php:29
+#: content-link.php:29 content-image.php:29
+msgid "Continue Reading"
+msgstr ""
+
+#: category.php:15
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: category.php:35 index.php:26 archive.php:43 tag.php:32 search.php:31
+#: author.php:34
+msgid "&laquo; Older posts"
+msgstr ""
+
+#: category.php:36 index.php:27 archive.php:44 tag.php:33 search.php:32
+#: author.php:35
+msgid "Newer posts &raquo;"
+msgstr ""
+
+#: content-single.php:20 content.php:20
+msgid "by"
+msgstr ""
+
+#: content-single.php:38 content-page.php:19 content.php:52
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:51
+#, php-format
+msgid "Posted by %s"
+msgstr ""
+
+#: content-single.php:61
+msgid "Category:"
+msgstr ""
+
+#: content-single.php:64
+msgid "Tags:"
+msgstr ""
+
+#: 404.php:16
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#. Name of the template
+msgid "Fullwidth Page"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Day: <span>%s</span>"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+msgid "Month: <span>%s</span>"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Year: <span>%s</span>"
+msgstr ""
+
+#: archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:30
+#, php-format
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:48
+msgid "&laquo;  Older Comments"
+msgstr ""
+
+#: comments.php:49
+msgid "Newer Comments  &raquo;"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:73
+msgid ""
+"<p class=\"comment-note\">Required fields are marked <span "
+"class=\"required\">*</span>.</p>"
+msgstr ""
+
+#: comments.php:75
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr ""
+
+#: comments.php:76
+msgid "Send"
+msgstr ""
+
+#: tag.php:15
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:43
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:47
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: header.php:61 sidebar.php:19
+msgid "Menu"
+msgstr ""
+
+#: footer.php:22
+msgid "&#8593; Back to Top &#8593;"
+msgstr ""
+
+#: footer.php:38
+msgid "<span class=\"slash\"> //</span> Proudly powered by"
+msgstr ""
+
+#: footer.php:38
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:39
+#, php-format
+msgid "<span class=\"slash\"> //</span> Theme: %1$s by %2$s"
+msgstr ""
+
+#: footer.php:67
+msgid "en_US"
+msgstr ""
+
+#: share.php:13
+msgid "Tweet"
+msgstr ""
+
+#: single.php:24
+msgid "Next Post &raquo;"
+msgstr ""
+
+#: single.php:25
+msgid "&laquo; Previous Post"
+msgstr ""
+
+#: author.php:17
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr ""
+
+#: image.php:74
+#, php-format
+msgid ""
+"<li class=\"image-size\"><span>Image Size:</span> <a href=\"%3$s\" "
+"title=\"Link to full-size image\">%4$s&times;%5$s pixels</a> </li>\n"
+"\t\t\t\t\t\t<li><span>Posted in:</span> <a href=\"%6$s\" title=\"%7$s\">"
+"%7$s</a></li>"
+msgstr ""
+
+#: image.php:99
+msgid "Next Image &raquo;"
+msgstr ""
+
+#: image.php:100
+msgid "&laquo; Previous Image"
+msgstr ""
+
+#. Name of page
+#: includes/theme-options.php:63 includes/theme-options.php:64
+msgid "Theme Options"
+msgstr ""
+
+#: includes/theme-options.php:80
+msgid "right Sidebar"
+msgstr ""
+
+#: includes/theme-options.php:85
+msgid "One-column"
+msgstr ""
+
+#: includes/theme-options.php:131
+#, php-format
+msgid "%s Theme Options"
+msgstr ""
+
+#: includes/theme-options.php:143
+msgid "Custom Link Color"
+msgstr ""
+
+#: includes/theme-options.php:145
+msgid "Link Color"
+msgstr ""
+
+#: includes/theme-options.php:149
+#, php-format
+msgid "Default Link Color: %s"
+msgstr ""
+
+#: includes/theme-options.php:154 includes/theme-options.php:156
+msgid "Second Custom Color"
+msgstr ""
+
+#: includes/theme-options.php:160
+#, php-format
+msgid ""
+"This color is used for widget headlines, subheadlines and the quote post "
+"format. Default: %s"
+msgstr ""
+
+#: includes/theme-options.php:165 includes/theme-options.php:167
+msgid "Layout Options"
+msgstr ""
+
+#: includes/theme-options.php:187
+msgid "Custom Logo"
+msgstr ""
+
+#: includes/theme-options.php:189
+msgid "Custom Logo image"
+msgstr ""
+
+#: includes/theme-options.php:191
+msgid "Upload your own logo image using the "
+msgstr ""
+
+#: includes/theme-options.php:191
+msgid "WordPress Media Uploader"
+msgstr ""
+
+#: includes/theme-options.php:191
+msgid ". Copy your logo image file URL and insert the URL here."
+msgstr ""
+
+#: includes/theme-options.php:196 includes/theme-options.php:198
+msgid "White Header Font Color"
+msgstr ""
+
+#: includes/theme-options.php:200
+msgid ""
+"Check this box to set white as the standard header font color (this option "
+"is useful if you choose a dark header image)."
+msgstr ""
+
+#: includes/theme-options.php:205 includes/theme-options.php:207
+msgid "Custom Menu Title"
+msgstr ""
+
+#: includes/theme-options.php:209
+msgid ""
+"Choose a custom title for your main navigation (e.g. Navigation, Pages or "
+"Categories. The default title is \"Menu\")."
+msgstr ""
+
+#: includes/theme-options.php:214 includes/theme-options.php:216
+msgid "Footer Widgets Background Color"
+msgstr ""
+
+#: includes/theme-options.php:220
+#, php-format
+msgid "Default Footer Widgets Background Color: %s"
+msgstr ""
+
+#: includes/theme-options.php:225
+msgid "Custom Footer Credit Text"
+msgstr ""
+
+#: includes/theme-options.php:227
+msgid "Custom Footer text"
+msgstr ""
+
+#: includes/theme-options.php:229
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr ""
+
+#: includes/theme-options.php:234 includes/theme-options.php:236
+msgid "Custom Favicon"
+msgstr ""
+
+#: includes/theme-options.php:238
+msgid ""
+"Create a favicon image and upload your .ico Favicon image (via FTP) to your "
+"server and enter the Favicon URL here."
+msgstr ""
+
+#: includes/theme-options.php:243 includes/theme-options.php:245
+msgid "Share option for posts"
+msgstr ""
+
+#: includes/theme-options.php:247
+msgid ""
+"Check this box to include a post short URL, Twitter, Facebook and Google+ "
+"button on the blogs front page and on single post pages."
+msgstr ""
+
+#: includes/theme-options.php:252 includes/theme-options.php:254
+msgid "Share option for single post pages only"
+msgstr ""
+
+#: includes/theme-options.php:256
+msgid ""
+"Check this box to include the share post buttons <strong>only</strong> on "
+"single post pages."
+msgstr ""
+
+#: includes/theme-options.php:261 includes/theme-options.php:263
+msgid "Share option for pages"
+msgstr ""
+
+#: includes/theme-options.php:265
+msgid "Check this box to include the share option on pages."
+msgstr ""
+
+#. Name of the theme
+msgid "Pohutukawa"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Pohutukawa is a modern mobile-first, responsive WordPress theme best suited "
+"for personal blogs. The theme automatically adapts to different screen sizes,"
+" so your blog content can be perfectly viewed from any device from "
+"smartphones, tablets, laptops to desktop computers. You can upload a big "
+"header image to make you blog more personal and on the theme options page "
+"you can also choose different colors, layout options and upload your own "
+"logo."
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.elmastudio.de/wordpress-themes/pohutukawa/"
+msgstr ""
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.elmastudio.de/"
+msgstr ""
