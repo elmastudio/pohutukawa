@@ -4,10 +4,14 @@ For the detailed theme documentation visit:
 - https://www.elmastudio.de/en/themes/docs/ (English)
 - https://www.elmastudio.de/wordpress-themes/doks/ (German)
 
-Please ask all theme questions in our theme support forum: https://elmastudio.ticksy.com/
+This is a grandfathered Elmastudio WordPress theme. Please understand that we cannot provide further support for this.
 ---------------------------------------------------------------------------------------------------------------------------
 
 Pohutukawa Changelog:
+
+Version 1.0.3.1 (28/08/2019)
+----------------------------------------------------------------------------------------------------------------------------
+- Bugfix: Posts don't overlap anymore (i.e. read more button works again)
 
 Version 1.0.3 (11/12/2018)
 ----------------------------------------------------------------------------------------------------------------------------
