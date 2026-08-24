@@ -331,7 +331,7 @@ function pohutukawa_theme_options_validate( $input ) {
 
 function pohutukawa_print_white_headerfont_style() {
 	$options = pohutukawa_get_theme_options();
-	$white_headerfont = $options['white_headerfont'];
+	$white_headerfont = isset( $options['white_headerfont'] ) ? $options['white_headerfont'] : '';
 
 	$default_options = pohutukawa_get_default_theme_options();
 
@@ -360,7 +360,7 @@ add_action( 'wp_head', 'pohutukawa_print_white_headerfont_style' );
 
 function pohutukawa_print_link_color_style() {
 	$options = pohutukawa_get_theme_options();
-	$link_color = $options['link_color'];
+	$link_color = isset( $options['link_color'] ) ? $options['link_color'] : '';
 
 	$default_options = pohutukawa_get_default_theme_options();
 
@@ -422,7 +422,7 @@ add_action( 'wp_head', 'pohutukawa_print_link_color_style' );
 
 function pohutukawa_print_widget_headline_color_style() {
 	$options = pohutukawa_get_theme_options();
-	$widget_headline_color = $options['widget_headline_color'];
+	$widget_headline_color = isset( $options['widget_headline_color'] ) ? $options['widget_headline_color'] : '';
 
 	$default_options = pohutukawa_get_default_theme_options();
 
@@ -446,7 +446,7 @@ add_action( 'wp_head', 'pohutukawa_print_widget_headline_color_style' );
 
 function pohutukawa_print_footerwidget_color_style() {
 	$options = pohutukawa_get_theme_options();
-	$footerwidget_color = $options['footerwidget_color'];
+	$footerwidget_color = isset( $options['footerwidget_color'] ) ? $options['footerwidget_color'] : '';
 
 	$default_options = pohutukawa_get_default_theme_options();
 
@@ -467,7 +467,7 @@ add_action( 'wp_head', 'pohutukawa_print_footerwidget_color_style' );
 /*-----------------------------------------------------------------------------------*/
 function pohutukawa_layout_classes( $existing_classes ) {
 	$options = pohutukawa_get_theme_options();
-	$current_layout = $options['theme_layout'];
+	$current_layout = isset( $options['theme_layout'] ) ? $options['theme_layout'] : '';
 
 	if ( in_array( $current_layout, array( 'content-sidebar' ) ) )
 		$classes = array( 'two-column' );
