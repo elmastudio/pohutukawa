@@ -20,7 +20,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	$options = get_option('pohutukawa_theme_options');
-	if( $options['custom_favicon'] != '' ) : ?>
+	if ( ! empty( $options['custom_favicon'] ) ) : ?>
 <link rel="shortcut icon" type="image/ico" href="<?php echo $options['custom_favicon']; ?>" />
 <?php endif  ?>
 
@@ -40,7 +40,7 @@
 			<div id="branding">
 				<hgroup id="site-title">
 					<?php $options = get_option('pohutukawa_theme_options');
-						if( $options['custom_logo'] != '' ) : ?>
+						if ( ! empty( $options['custom_logo'] ) ) : ?>
 						<a href="<?php echo home_url( '/' ); ?>" class="logo"><img src="<?php echo $options['custom_logo']; ?>" alt="<?php bloginfo('name'); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
 					<?php else: ?>
 						<h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>

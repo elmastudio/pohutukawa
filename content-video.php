@@ -21,7 +21,7 @@
 
 			<?php // Include Share-Btns
 				$options = get_option('pohutukawa_theme_options');
-				if( $options['share-posts'] ) : ?>
+				if( ! empty( $options['share-posts'] ) ) : ?>
 				<?php get_template_part( 'share'); ?>
 			<?php endif; ?>
 

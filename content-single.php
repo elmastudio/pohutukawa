@@ -66,7 +66,7 @@
 
 				<?php // Include Share-Btns on single posts page
 				$options = get_option('pohutukawa_theme_options');
-				if($options['share-singleposts'] or $options['share-posts']) : ?>
+				if ( ! empty( $options['share-singleposts'] ) || ! empty( $options['share-posts'] ) ) : ?>
 					<?php get_template_part( 'share'); ?>
 				<?php endif; ?>
 

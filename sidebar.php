@@ -13,7 +13,7 @@
 		<nav id="main-nav">
 			<?php
 			$options = get_option('pohutukawa_theme_options');
-			if( $options['menu_title'] != '' ) : ?>
+			if ( ! empty( $options['menu_title'] ) ) : ?>
 				<h3><?php echo $options['menu_title']; ?></h3>
 			<?php else: ?>
 				<h3><?php _e('Menu', 'pohutukawa') ?></h3>

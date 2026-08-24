@@ -29,7 +29,7 @@
 
 			<?php
 				$options = get_option('pohutukawa_theme_options');
-				if($options['custom_footertext'] != '' ){
+				if ( ! empty( $options['custom_footertext'] ) ){
 					echo stripslashes($options['custom_footertext']);
 			} else { ?>
 
@@ -56,7 +56,7 @@
 
 <?php // Include Facebook Google+ button code if the share post options are activated.
 	$options = get_option('pohutukawa_theme_options');
-	if($options['share-singleposts'] or $options['share-posts'] or $options['share-pages']) : ?>
+	if ( ! empty( $options['share-singleposts'] ) || ! empty( $options['share-posts'] ) || ! empty( $options['share-pages'] ) ) : ?>
 	<script type="text/javascript">
 	(function() {
 		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
