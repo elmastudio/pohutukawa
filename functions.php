@@ -538,3 +538,14 @@ function pohutukawa_link_format( $atts, $content = null ) {
 		return $out;
 }
 add_shortcode('link_format', 'pohutukawa_link_format');
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function pohutukawa_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'share-pages', 'share-posts', 'custom_favicon', 'custom_logo', 'menu_title', 'share-singleposts', 'link_color', 'widget_headline_color', 'theme_layout', 'white_headerfont', 'footerwidget_color', 'custom_footertext' ), '' );
+	if ( function_exists( 'pohutukawa_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) pohutukawa_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_pohutukawa_theme_options', 'pohutukawa_php8_option_defaults' );
+add_filter( 'option_pohutukawa_theme_options', 'pohutukawa_php8_option_defaults' );
