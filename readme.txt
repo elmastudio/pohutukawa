@@ -3,6 +3,10 @@ Install the Git Updater plugin (https://git-updater.com/) and WordPress will off
 
 Changelog:
 
+Version 1.0.6 (09/09/2026)
+-----------------------------------------------------------------------------------------------------------------------------
+- Fix: Sidebars and widgets are now registered on the widgets_init hook. WordPress 6.7 and newer no longer report that the theme loads its translations too early.
+
 Version 1.0.5 (25/08/2026)
 -----------------------------------------------------------------------------------------------------------------------------
 - Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.

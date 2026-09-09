@@ -322,7 +322,7 @@ function pohutukawa_widgets_init() {
 	) );
 
 }
-add_action( 'init', 'pohutukawa_widgets_init' );
+add_action( 'widgets_init', 'pohutukawa_widgets_init' );
 
 /*-----------------------------------------------------------------------------------*/
 /* Customized pohutukawa search form
